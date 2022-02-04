@@ -1,0 +1,19 @@
+{
+    "require": {
+        "php": "~8.1.0"
+    },
+    "require-dev": {
+        "brianium/paratest": "^6.4.1",
+        "phpunit/phpunit": "^9.5.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "My\\": "lib/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MyTest\\": "tests/"
+        }
+    }
+}
