@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace My;
 
-class Zzz
+class AType
 {
+    public const OPT = 1;
 }
