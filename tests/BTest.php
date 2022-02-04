@@ -15,7 +15,7 @@ final class BTest extends TestCase
 {
     public function testMe(): void
     {
-        $var = BType::OPT;
+        self::assertSame(1, BType::OPT);
         self::assertTrue((new B())->inArray());
     }
 }
