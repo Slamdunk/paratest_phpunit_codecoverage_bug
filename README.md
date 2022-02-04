@@ -1,13 +1,7 @@
-## CodeCoverage inconsistencies between PHPUnit and Paratest
+## CodeCoverage inconsistencies
 
-### `vendor/bin/phpunit`
-
-![image](https://user-images.githubusercontent.com/152236/152515744-442b4f72-6dcb-4dd1-85e9-a31f0f25c3ac.png)
-
-### `vendor/bin/paratest --processes=1`
-
-![image](https://user-images.githubusercontent.com/152236/152515830-84c72c49-4882-47e3-a75c-4e493e3a2091.png)
-
-### `vendor/bin/paratest --processes=2`
-
-![image](https://user-images.githubusercontent.com/152236/152515865-2d26caa0-46c6-4647-9097-16e30994751c.png)
+|Test|CodeCoverage|
+|-|-|
+|https://github.com/Slamdunk/phpunit_codecoverage_bug/blob/0269bb569f25871128f1f475b08e906d569185b6/tests/ATest.php#L15-L18|![image](https://user-images.githubusercontent.com/152236/152548006-665f8edf-909f-417f-b480-4b4f09014cd8.png)|
+|https://github.com/Slamdunk/phpunit_codecoverage_bug/blob/0269bb569f25871128f1f475b08e906d569185b6/tests/BTest.php#L16-L20|![image](https://user-images.githubusercontent.com/152236/152548176-5fa91b1a-a56f-411d-ba84-dd2a454ef3bd.png)|
+|*No Test*|![image](https://user-images.githubusercontent.com/152236/152548231-75827e3d-191d-4de5-86a3-9e747e2e0965.png)|
