@@ -12,6 +12,7 @@
       <file>./lib/A.php</file>
       <file>./lib/B.php</file>
       <file>./lib/C.php</file>
+      <file>./lib/D.php</file>
     </include>
   </coverage>
   <testsuite name="Foo">
